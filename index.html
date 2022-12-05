@@ -18,6 +18,34 @@
             width: 500px;
             background-color: blue;
         }
+
+
+        .outter_box{
+
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            border: 5px solid yellow;
+        }
+
+        .inner_box{
+
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border: 1px solid black;
+            position: relative;
+
+            transform: scale(0.5);
+
+            transform: rotate(45deg);
+
+            /* transform: translate(50px, 50px); */
+
+            transform: translateX(20px);
+            transform: translateY(50px);
+            transform: translateZ(10px);
+        }
     </style>
 
     
@@ -25,6 +53,21 @@
 <body>
 
     <h1> <a target="_blank" href="google.com">vbbbbbbbbb <i  class="fa-solid fa-car" ></i></a> this is font awsome</h1>
+
+
+    <!-- transform scale means zoom in or out, rotate, translate into x, y, z axis -->
+
+    <div class="outter_box">
+        <div class="inner_box">box-1</div>
+    </div>
+    <div class="outter_box">
+        <div class="inner_box">box-2</div>
+    </div>
+    <div class="outter_box">
+        <div class="inner_box">box-3</div>
+    </div>
+
+    <!-- transform closed -->
     
 </body>
 </html>
