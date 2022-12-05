@@ -46,6 +46,24 @@
             transform: translateY(50px);
             transform: translateZ(10px);
         }
+
+        .box_tran{
+
+            width: 150px;
+            height: 150px;
+            border: 5px solid yellow;
+            background-color: red;
+           
+        }
+
+        .box_tran:hover{
+
+            width: 300px;
+            height: 300px;
+            transition: width 2s ease-in , height 2s ease-in 4s, transform 2s ease-in ;
+            /* transition: transform 10s ease-in 4s; */
+
+            transform: rotate(180deg);
     </style>
 
     
@@ -70,9 +88,24 @@
     <!-- transform closed -->
 
     
+<hr>
 
     <!-- transiation started -->
 
+    <div class="box_tran">
+        pham
+
+    </div>
+
+    <div class="box_tran">
+        pham
+
+    </div>
+
+    <div class="box_tran">
+        pham
+
+    </div>
 
 
     <!-- tranisition end -->
